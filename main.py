@@ -18,4 +18,4 @@ def redirect_to_form():
 
 if __name__ == '__main__':
     app.run(host="0.0.0.0", port=1126, debug=True)
-    # link: https://reurl.cc/d1OE2M
+
