@@ -7,11 +7,11 @@ app = Flask(__name__)
 def redirect_to_form():
     form_links = [
         "https://www.surveycake.com/s/wvBBO",
-        "https://www.surveycake.com/s/xwQxz",
-        "https://www.surveycake.com/s/7Zpyn",
+        # "https://www.surveycake.com/s/xwQxz",
+        # "https://www.surveycake.com/s/7Zpyn",
         # "https://www.surveycake.com/s/nzQAQ",
         "https://www.surveycake.com/s/pMPkn",
-        "https://www.surveycake.com/s/1ZXYx",             
+        # "https://www.surveycake.com/s/1ZXYx",  ``           
     ]
     selected_link = random.choice(form_links)
     return redirect(selected_link)
